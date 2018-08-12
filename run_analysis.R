@@ -81,4 +81,4 @@ for (sub in 1:30) {
 }
 
 names(finaldata) <- names(mydata2)
-write.table(finaldata, file = "TidyDataFinal.txt")
+write.table(finaldata, file = "TidyDataFinal.txt", row.name = FALSE)
